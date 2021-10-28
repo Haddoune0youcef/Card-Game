@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head><title>this is js</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+
+        <style>
+         #card1,#card2,#card3,#card4,#card5,#card6,#card7,#card8,#card9
+          {width: 30mm;
+            height: 50mm;
+            position: absolute;
+            top: 90mm;
+            left: 150mm;
+             border: 2px solid black;
+             transform: rotateY(180deg);
+             background-color: rgb(0, 0, 0);
+             cursor: pointer;
+             transition: 0s;
+             border: 2px solid gray;}
+
+
+             p  {text-align: center;
+                 font-size: 6em;
+                 position: relative;
+                 top: -15mm;
+                 }
+
+
+         #score   {position: absolute;
+                   top: 0mm;
+                   left:10mm;
+                width: 40mm;
+                  height: 30mm;
+                   font-size: 7em;
+                   padding: 3mm 10mm;
+                   background-color: black;
+                   color: white;}
+
+
+
+
+        </style>
+    
+    </head>
+    <body id="bod">
+
+     
+     <div id="card1" value="1" onclick="turn1()"><p>1</p></div>
+     <div id="card2" value="2" onclick="turn2()"><p>2</p></div>
+     <div id="card3" value="3" onclick="turn3()"><p>3</p></div>
+     <div id="card4" value="4" onclick="turn4()"><p>4</p></div>
+     <div id="card5" value="5" onclick="turn5()"><p>5</p></div>
+     <div id="card6" value="6" onclick="turn6()"><p>6</p></div>
+     <div id="card7" value="7" onclick="turn7()"><p>7</p></div>
+     <div id="card8" value="8" onclick="turn8()"><p>8</p></div>
+     <div id="card9" value="9" onclick="turn9()"><p>9</p></div>
+
+
+
+    
+
+     <p id="EE" value="" style="font-size: 13em;position: relative;top:-60mm"></p>
+
+     <p id="score">0</p>
+
+    
+
+     
+
+
+
+
+
+
+
+
+
+
+      <script src="CardGame.js">
+
+      </script>
+
+
+
+
+    </body>
+</html>
